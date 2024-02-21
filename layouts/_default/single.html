@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <div>single</div>
+  <h1>{{ .Title }}</h1>
+  <div class="markdown-body">
+    {{ .Content }}
+  </div>
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}

@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Zahlen-Zeit-Zufriedenheit'
+
+[markup]
+  [markup.highlight]
+  noClasses = false
+
+[[menus.main]]
+name = 'Zahlen'
+pageRef = '/erlebnisreise/zahlen'
+weight = 20
+
+[[menus.main]]
+name = 'Zeit'
+pageRef = '/erlebnisreise/zeit'
+weight = 20
+
+[[menus.main]]
+name = 'Zufriedenheit'
+pageRef = '/erlebnisreise/zufriedenheit'
+weight = 20
+
+

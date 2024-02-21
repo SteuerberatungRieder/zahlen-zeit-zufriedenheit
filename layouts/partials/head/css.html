@@ -1,0 +1,44 @@
+{{- /* Styles */}}
+
+{{- $theme_vars :=slice (resources.Get "css/core/theme-vars.css") }}
+{{- $reset :=slice (resources.Get "css/core/reset.css") }}
+{{- $common := (resources.Match "css/common/*.css") }}
+
+{{- /* markup.highlight.noClasses should be set to `false` */}}
+{{- $code_styles :=slice (resources.Get "css/includes/syntax-light.css") }}
+
+{{- $extended := (resources.Match "css/extended/*.css") }}
+
+{{- /* order is important */}}
+{{- $styles := (slice $theme_vars $reset $common $code_styles $extended) }}
+
+{{- /* bundle all required css */}}
+{{- /* Add extended css after theme style */ -}}
+
+{{- if eq hugo.Environment "development" }}
+  {{ range $styles }}
+    {{ range . }}
+      <link
+        crossorigin="anonymous"
+        href="{{ .RelPermalink }}"
+        rel="preload stylesheet"
+        as="style"
+      />
+    {{ end }}
+  {{ end }}
+{{- else }}
+  {{ $stylesheets := slice }}
+
+  {{ range $sty := $styles }}
+    {{ $stylesheets = $stylesheets | collections.Append $sty }}
+  {{ end }}
+
+  {{- $stylesheet := $stylesheets | resources.Concat "assets/css/stylesheet.css" | resources.Minify | fingerprint }}
+  <link
+    crossorigin="anonymous"
+    href="{{ $stylesheet.RelPermalink }}"
+    integrity="{{ $stylesheet.Data.Integrity }}"
+    rel="preload stylesheet"
+    as="style"
+  />
+{{- end }}
