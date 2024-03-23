@@ -131,7 +131,8 @@ table {
 /* dark mode user-agent-styles */
 
 html {
-  color-scheme: dark light;
+  /* color-scheme: dark light; */
+  color-scheme: light;
 }
 
 /* responsive images/videos */

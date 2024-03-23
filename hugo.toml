@@ -6,19 +6,45 @@ title = 'Zahlen-Zeit-Zufriedenheit'
   [markup.highlight]
   noClasses = false
 
+
 [[menus.main]]
 name = 'Zahlen'
 pageRef = '/erlebnisreise/zahlen'
-weight = 20
 
 [[menus.main]]
 name = 'Zeit'
 pageRef = '/erlebnisreise/zeit'
-weight = 20
 
 [[menus.main]]
 name = 'Zufriedenheit'
 pageRef = '/erlebnisreise/zufriedenheit'
-weight = 20
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog'
+
+[[menus.main]]
+name = 'Kontakt'
+pageRef = '/kontakt'
+
+
+
+
+
+[[menus.zzz]]
+name = 'Zahlen'
+pageRef = '/erlebnisreise/zahlen'
+
+[[menus.zzz]]
+name = 'Zeit'
+pageRef = '/erlebnisreise/zeit'
+
+[[menus.zzz]]
+name = 'Zufriedenheit'
+pageRef = '/erlebnisreise/zufriedenheit'
 
 

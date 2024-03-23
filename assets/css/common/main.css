@@ -2,24 +2,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Helvetica, Arial, sans-serif;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-}
-
-.background {
-  position: absolute;
-  inset: 0;
-  background-image: url("/img/bg-compressor.jpg");
-  /* Center and scale the image nicely */
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
-.mainpage {
-  background-color: white;
-  max-width: 86rem;
+  background-color: #eef0ef;
 }
 
 footer {
@@ -34,15 +17,15 @@ h6 {
   font-family: "Times New Roman", Times, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  .mainpage {
-    background-color: #0d1117;
-    max-width: 86rem;
-  }
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media (prefers-color-scheme: light) {
-  .mainpage {
-    background-color: white;
-    max-width: 86rem;
-  }
+
+.container {
+  background-color: white;
+  max-width: 86rem;
+  padding: 2rem;
+  margin: 2rem;
 }

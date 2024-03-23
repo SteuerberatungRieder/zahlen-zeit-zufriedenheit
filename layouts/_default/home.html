@@ -1,13 +1,7 @@
 {{ define "main" }}
-  <div>Home</div>
-  <div class="markdown-body">
-    {{ .Content }}
-  </div>
-  <hr />
-  {{ range site.RegularPages }}
-    <div>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
+  <div class="container">
+    <div class="markdown-body">
+      {{ .Content }}
     </div>
-  {{ end }}
+  </div>
 {{ end }}
