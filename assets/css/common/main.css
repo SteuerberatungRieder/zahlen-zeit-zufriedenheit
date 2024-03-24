@@ -19,6 +19,7 @@ h6 {
 
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -26,6 +27,35 @@ main {
 .container {
   background-color: white;
   max-width: 86rem;
+  /* max-width: 44rem; */
   padding: 2rem;
   margin: 2rem;
+}
+
+.zzzMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: calc(86rem + 4rem);
+}
+
+.zzzMenu ul {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zzzMenu ul .container {
+  margin: 0;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1rem;
+}
+
+.zzzMenu .container img {
+  margin-bottom: 1em;
 }
