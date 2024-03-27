@@ -26,8 +26,8 @@ main {
 
 .container {
   background-color: white;
-  max-width: 86rem;
-  /* max-width: 44rem; */
+  /* max-width: 86rem; */
+  max-width: 44rem;
   padding: 2rem;
   margin: 2rem;
 }
@@ -37,11 +37,13 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: calc(86rem + 4rem);
+  /* max-width: calc(86rem + 8rem); */
+  max-width: calc(44rem + 8rem);
 }
 
 .zzzMenu ul {
   width: 100%;
+  margin: 2rem;
 
   display: flex;
   flex-direction: row;

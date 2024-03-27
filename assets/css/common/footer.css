@@ -1,4 +1,14 @@
 footer {
   background-color: #88b443;
   color: white;
+  text-align: center;
+  padding-block: 1rem;
+}
+
+footer .images {
+  margin-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
 }
