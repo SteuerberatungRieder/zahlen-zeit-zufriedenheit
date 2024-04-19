@@ -1,10 +1,37 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+languageCode = 'de-DE'
 title = 'Zahlen-Zeit-Zufriedenheit'
 
+IsMultiLingual = true
+DefaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
+
 [markup]
-  [markup.highlight]
-  noClasses = false
+[markup.highlight]
+noClasses = false
+
+
+[languages]
+[languages.de]
+contentDir = 'content/de'
+disabled = false
+languageCode = 'de-DE'
+languageDirection = 'ltr'
+languageName = 'Deutsch'
+title = 'Projekt Dokumentation'
+weight = 1
+[languages.de.params]
+subtitle = 'Referenz, Tutorials und Erklärungen'
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'Project Documentation'
+weight = 2
+[languages.en.params]
+subtitle = 'Reference, Tutorials, and Explanations'
 
 
 [[menus.main]]
@@ -32,9 +59,6 @@ name = 'Kontakt'
 pageRef = '/kontakt'
 
 
-
-
-
 [[menus.zzz]]
 name = 'Zahlen'
 pageRef = '/erlebnisreise/zahlen'
@@ -46,5 +70,3 @@ pageRef = '/erlebnisreise/zeit'
 [[menus.zzz]]
 name = 'Zufriedenheit'
 pageRef = '/erlebnisreise/zufriedenheit'
-
-
