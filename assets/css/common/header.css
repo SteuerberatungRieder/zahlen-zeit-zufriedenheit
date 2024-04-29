@@ -10,7 +10,8 @@
 .banner_2 img {
   object-fit: cover;
   width: 100%;
-  max-height: 21.25rem;
+  max-height: 25rem;
+  object-position: 100% 10%;
 }
 
 .mainMenu nav {
