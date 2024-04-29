@@ -5,7 +5,7 @@
   src:
     local("Barlow"),
     url("/fonts/barlow/woff2/Barlow-Regular.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Regular.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Regular.woff") format("woff");
 }
 
 /* Regular styles */
@@ -16,7 +16,7 @@
   src:
     local("Barlow ExtraLight"),
     url("/fonts/barlow/woff2/Barlow-ExtraLight.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-ExtraLight.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-ExtraLight.woff") format("woff");
 }
 
 @font-face {
@@ -26,7 +26,7 @@
   src:
     local("Barlow Light"),
     url("/fonts/barlow/woff2/Barlow-Light.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Light.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Light.woff") format("woff");
 }
 
 @font-face {
@@ -36,7 +36,7 @@
   src:
     local("Barlow Medium"),
     url("/fonts/barlow/woff2/Barlow-Medium.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Medium.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -46,7 +46,7 @@
   src:
     local("Barlow SemiBold"),
     url("/fonts/barlow/woff2/Barlow-SemiBold.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-SemiBold.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -56,7 +56,7 @@
   src:
     local("Barlow Bold"),
     url("/fonts/barlow/woff2/Barlow-Bold.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Bold.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -66,7 +66,7 @@
   src:
     local("Barlow ExtraBold"),
     url("/fonts/barlow/woff2/Barlow-ExtraBold.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-ExtraBold.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-ExtraBold.woff") format("woff");
 }
 
 @font-face {
@@ -76,7 +76,7 @@
   src:
     local("Barlow Black"),
     url("/fonts/barlow/woff2/Barlow-Black.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Black.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Black.woff") format("woff");
 }
 
 /* Italic styles */
@@ -87,7 +87,7 @@
   src:
     local("Barlow ExtraLight Italic"),
     url("/fonts/barlow/woff2/Barlow-ExtraLightItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-ExtraLightItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-ExtraLightItalic.woff") format("woff");
 }
 
 @font-face {
@@ -97,7 +97,7 @@
   src:
     local("Barlow Light Italic"),
     url("/fonts/barlow/woff2/Barlow-LightItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-LightItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-LightItalic.woff") format("woff");
 }
 
 @font-face {
@@ -107,7 +107,7 @@
   src:
     local("Barlow Medium Italic"),
     url("/fonts/barlow/woff2/Barlow-MediumItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-MediumItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-MediumItalic.woff") format("woff");
 }
 
 @font-face {
@@ -117,7 +117,7 @@
   src:
     local("Barlow Italic"),
     url("/fonts/barlow/woff2/Barlow-Italic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-Italic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-Italic.woff") format("woff");
 }
 
 @font-face {
@@ -127,7 +127,7 @@
   src:
     local("Barlow SemiBold Italic"),
     url("/fonts/barlow/woff2/Barlow-SemiBoldItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-SemiBoldItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
@@ -137,7 +137,7 @@
   src:
     local("Barlow Bold Italic"),
     url("/fonts/barlow/woff2/Barlow-BoldItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-BoldItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-BoldItalic.woff") format("woff");
 }
 
 @font-face {
@@ -147,7 +147,7 @@
   src:
     local("Barlow ExtraBold Italic"),
     url("/fonts/barlow/woff2/Barlow-ExtraBoldItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-ExtraBoldItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-ExtraBoldItalic.woff") format("woff");
 }
 
 @font-face {
@@ -157,7 +157,7 @@
   src:
     local("Barlow Black Italic"),
     url("/fonts/barlow/woff2/Barlow-BlackItalic.woff2") format("woff2"),
-    url("/fonts/barlow/woff2/Barlow-BlackItalic.woff") format("woff");
+    url("/fonts/barlow/woff/Barlow-BlackItalic.woff") format("woff");
 }
 
 body {
