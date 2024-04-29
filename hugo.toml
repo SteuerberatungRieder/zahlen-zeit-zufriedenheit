@@ -53,16 +53,3 @@ pageRef = '/blog'
 [[menus.main]]
 name = 'Kontakt'
 pageRef = '/kontakt'
-
-
-[[menus.zzz]]
-name = 'Zahlen'
-pageRef = '/erlebnisreise/zahlen'
-
-[[menus.zzz]]
-name = 'Zeit'
-pageRef = '/erlebnisreise/zeit'
-
-[[menus.zzz]]
-name = 'Zufriedenheit'
-pageRef = '/erlebnisreise/zufriedenheit'

@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  background-color: #eef0ef;
+  background-color: #f0f0f0;
 }
 
 footer {
@@ -23,39 +23,9 @@ main {
 }
 
 .container {
-  background-color: white;
-  /* max-width: 86rem; */
-  max-width: 44rem;
+  background-color: #f0f0f0;
+  max-width: 76rem;
+  /* max-width: 44rem; */
   padding: 2rem;
   margin: 2rem;
-}
-
-.zzzMenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /* max-width: calc(86rem + 8rem); */
-  max-width: calc(44rem + 8rem);
-}
-
-.zzzMenu ul {
-  width: 100%;
-  margin: 2rem;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.zzzMenu ul .container {
-  margin: 0;
-  font-size: 1.2em;
-  text-align: center;
-  padding: 1rem;
-}
-
-.zzzMenu .container img {
-  margin-bottom: 1em;
 }
