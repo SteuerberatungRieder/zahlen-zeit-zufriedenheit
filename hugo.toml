@@ -20,8 +20,6 @@ languageDirection = 'ltr'
 languageName = 'Deutsch'
 title = 'Projekt Dokumentation'
 weight = 1
-[languages.de.params]
-subtitle = 'Referenz, Tutorials und Erklärungen'
 [languages.en]
 contentDir = 'content/en'
 disabled = false
@@ -30,8 +28,6 @@ languageDirection = 'ltr'
 languageName = 'English'
 title = 'Project Documentation'
 weight = 2
-[languages.en.params]
-subtitle = 'Reference, Tutorials, and Explanations'
 
 
 [[menus.main]]

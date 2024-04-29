@@ -1,23 +1,53 @@
 +++
 date = 2024-02-13T18:50:17+01:00
 +++
+# Zahlen Zeit Zufriedenheit
+ 
 
-# Test de
+Mit unserem Beratungsmodell für UnternehmerInnen nachhaltig wirtschaften UND gut leben
+Liebst Du Deine Arbeit, stehen Zeitaufwand und Ressourceneinsatz in gutem Verhältnis zum Ertrag und läuft es auch sonst rund in Deinem Leben?
+Wenn Du diese Fragen mit ja beantworten kannst, dann herzlichen Glückwunsch! 
+Wenn es dort und da noch hakt oder womöglich nichts davon rund läuft, dann haben wir
+ein Beratungsmodell für Dich, mit dem du Schritt für Schritt Deine Situation
+verbessern kannst:
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maiores sapiente beatae itaque atque dolorum unde expedita, accusamus explicabo. Omnis, corrupti dignissimos deserunt deleniti vitae necessitatibus minus accusantium sed repellat.
-Quasi perspiciatis in repellendus atque expedita enim inventore pariatur asperiores assumenda amet quos ullam consectetur, nemo repellat illo necessitatibus tenetur quibusdam. Non necessitatibus assumenda reiciendis possimus dolorum corporis, asperiores minus.
-Nulla recusandae aperiam error quod rem nostrum at dolor ipsam, repellendus tempora temporibus dolores omnis officiis minus voluptatem, fuga laboriosam odit maiores veritatis. Soluta incidunt aliquam dolorem, error nulla eligendi.
-Laboriosam placeat nam quo deleniti blanditiis molestias obcaecati voluptatibus recusandae laudantium modi doloremque illum nihil quis neque tempore, sapiente facere sunt praesentium voluptate aperiam officia. Totam, possimus. Placeat, architecto possimus!
-Facere aut sunt corporis facilis illum quaerat sed. Amet corrupti reiciendis hic quis et impedit officiis, dolorum eos animi pariatur. Perferendis harum laborum eveniet quia tempora adipisci laboriosam odio voluptas.
-Similique illo eligendi quas accusantium officia, ratione saepe non architecto voluptas! Nam dolores suscipit deleniti possimus sed? Nobis et saepe sed, repudiandae ipsum neque qui obcaecati numquam aperiam delectus aspernatur!
-Quod, nisi natus! Aspernatur quasi, similique dignissimos dolores sapiente suscipit ea ratione, corrupti atque voluptate incidunt veritatis eaque modi quisquam beatae? Ullam eum expedita id ab, aspernatur minima eveniet earum!
-Voluptatibus incidunt sint ab dolor non tenetur tempore quisquam quidem neque vitae! Perspiciatis modi quae, nemo hic id ad consectetur enim ipsam unde dolorem, totam repudiandae tempore quas consequuntur laboriosam!
-Quae perspiciatis accusamus nihil et tempore tenetur, saepe dolore odit quod aperiam aut harum, quaerat consequatur consequuntur sapiente quisquam eum rem dolorem autem eligendi est velit, corporis iste. Quia, eius.
-At nobis alias, odio culpa quam adipisci totam, voluptatum, placeat eveniet ducimus omnis minima inventore iste fuga nulla nihil. Praesentium, porro. Unde iusto inventore rerum numquam dolor libero maiores maxime?
-Ab aliquam ea rem unde animi delectus exercitationem accusantium assumenda a molestias praesentium temporibus vero cupiditate mollitia doloremque, aspernatur earum ad. Aliquid perferendis, autem nesciunt optio saepe officia sint! Sapiente.
-Provident ullam vitae blanditiis velit inventore deleniti architecto incidunt eius voluptatibus autem natus, eligendi explicabo impedit aut beatae quae id? Neque mollitia sit placeat similique ipsam aperiam laudantium aut exercitationem.
-Ex eligendi soluta quia ea officia quos numquam rem expedita necessitatibus saepe maxime impedit, esse, quasi nam labore adipisci reprehenderit? Reiciendis dignissimos corrupti dolor odio ducimus impedit error deleniti soluta.
-Possimus blanditiis atque doloremque aspernatur id? Aut quod quibusdam porro veniam earum quidem, odio, provident itaque voluptates, necessitatibus consequatur quisquam. Distinctio, omnis dolores. Expedita earum culpa, harum perferendis quis a?
-Aperiam qui esse dolor, eos iste corrupti nam! Labore vel cum voluptate recusandae molestiae eos quae, mollitia corrupti repudiandae, nostrum quibusdam delectus tempore eius facilis molestias ullam at ab dignissimos!
-Unde, modi, sunt tenetur, blanditiis maiores vel officia ad suscipit omnis id soluta. Voluptate atque obcaecati, eligendi illo nam tempora doloribus. Doloremque sequi nisi est id dicta fugiat doloribus debitis.
-Praesentium minus, voluptate optio dolore quidem nisi, possimus nam tempora consequuntur molestias nemo libero sapiente assumenda aspernatur. Magnam, doloribus eius magni autem provident illum mollitia sit delectus rem sunt est.
+## Zahlen – Zeit – Zufriedenheit
+heißt unser Modell. Von uns entwickelt ist es seit 20 Jahren in unserer Kanzlei und bei unseren Kund\*innen im Einsatz. Wir sind:
+Mag.ª Ursula Rieder, Steuer- und Unternehmensberaterin, akkreditierte CSR-Consultant und Trainerin für Gewaltfreie Kommunikation
+Magdalena Rieder, Expertise...
+Bernhard Rieder, Expertise...
+
+
+
+ 
+
+   
+
+## Jede Reise beginnt mit dem ersten Schritt:
+Mit uns lernst Du:
+- Zusammenhänge und eingefahrene (Denk-) und Verhaltensmuster zu erkennen
+- deren Auswirkungen zu berücksichtigen
+- bewusste Entscheidungen zu treffen
+- passende Strukturen zu definieren und zu implementieren.
+
+Dauerhaft und nachhaltig neue kleine Schritte zu setzen bringt Dich ans Ziel – denn jede Reise beginnt mit dem ersten Schritt.
+
+## Das Beratungsmodell in der Praxis:
+
+ 
+### Zufriedenheit:  
+Wonach sehnst du dich am meisten? Welche deiner Bedürfnisse kommen zu kurz? Was macht dich zufrieden? Wie muss dein Arbeitsleben / Arbeitsalltag gestaltetet sein, damit die Lebensqualität für dich passt?  Mit unseren Zufriedenheitsfaktoren finden wir es heraus. Denn Arbeit ist Leben (oder fühlst du dich „leblos“ während deiner Arbeit? Dann wäre es höchste Zeit für Veränderungen) 
+ 
+### Zahlen:
+sind die Grundlage für gute Entscheidungen. Die genaue Analyse Deiner Kennzahlen hilft, deine Effizienz und Effektivität zu verbessern. Weniger Kraftaufwand bei gutem Ertrag, weniger Ressourceneinsatz, dafür ökologisch und fair – so wirtschaftest Du nachhaltig.
+ 
+### Zeit: 
+Viel Zeitaufwand führt nicht unbedingt zu großem Ertrag bzw. voller Zufriedenheit. Der Zeitaufwand steht viel mehr in Zusammenhang mit Deiner Effizienz und dem Betriebsklima. Ist die Zusammenarbeit wertschätzend, werden Entscheidungen gemeinsam getroffen, sind die Unternehmensziele und die Unternehmensstrategie für alle transparent und klar, ziehen alle an einem Strang? Das sind entscheidende Faktoren.
+  
+### Der Boden, auf dem alles gedeiht
+Gehst Du mit Freude und Vertrauen ans Werk? Pflegst Du das Miteinander, eine Kultur der Wertschätzung und des Mitgefühls? Deine innere Haltung, dein „Mindset“ ist an deinem Verhalten, Deinen Handlungen erkennbar. Daran wirst Du gemessen.  Probier es aus:  wenn Du der Welt zulächelst, lächelt die Welt zurück. Lächeln ist eine sehr einfache Handlung, es entsteht, wenn deine innere Haltung , dein Mindset von Offenheit und Wohlgesonnenheit geprägt ist. Und es gibt täglich etwas, wofür du dankbar sein kannst, jetzt schon, egal, wie weit Du im Prozess bist. Denn Dankbarkeit erzeugt Zufriedenheit. So gelingt nachhaltig wirtschaften UND gut leben. 
+## Wir begleiten Dich:
+- individuell : Coaching, Beratung….und/oder mit
+- Impulsseminaren (neue Ideen und Aspekte kennenlernen)
+- Workshops (diese in Übungen ausprobieren und alltagstauglich machen)
+- Projekten (Begleitung bei der Umsetzung im Alltag)
