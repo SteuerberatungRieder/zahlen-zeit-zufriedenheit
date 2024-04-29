@@ -34,3 +34,8 @@ footer .contacts{
   position: relative;
   z-index: 1;
 }
+
+footer .contacts .copyright{
+  font-size: smaller;
+  margin-top: 0.2rem;
+}
