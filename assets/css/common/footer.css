@@ -3,12 +3,34 @@ footer {
   color: white;
   text-align: center;
   padding-block: 1rem;
+  position: relative;
 }
 
-footer .images {
-  margin-block: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
+footer a{
+  color: white;
+}
+
+footer .background{
+position: absolute;
+inset: 0;
+overflow: hidden;
+}
+
+footer .background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #77A914; /* Your desired color */
+  mix-blend-mode: multiply;
+}
+
+footer .background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer .contacts{
+  position: relative;
+  z-index: 1;
 }
