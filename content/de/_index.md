@@ -2,7 +2,6 @@
 date = 2024-02-13T18:50:17+01:00
 +++
 # Zahlen Zeit Zufriedenheit
- 
 
 Mit unserem Beratungsmodell für UnternehmerInnen nachhaltig wirtschaften UND gut leben
 Liebst Du Deine Arbeit, stehen Zeitaufwand und Ressourceneinsatz in gutem Verhältnis zum Ertrag und läuft es auch sonst rund in Deinem Leben?

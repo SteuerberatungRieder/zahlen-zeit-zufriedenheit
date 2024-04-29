@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'de-DE'
 title = 'Zahlen-Zeit-Zufriedenheit'
 
+
 IsMultiLingual = true
 DefaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true

@@ -1,9 +1,10 @@
-<div class="banner_1">
-  <img src="https://placehold.co/600x100" alt="a placeholder" />
-</div>
 <div class="mainMenu">
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </div>
 <div class="banner_2">
-  <img src="https://placehold.co/600x340/bdda4c/000000" alt="a placeholder" />
+  <img src="{{ absURL "/img/Hintergrund.jpg" }}" alt="main banner" />
 </div>
+<video width="100%" controls class="banner_vid">
+  <source src="{{ absURL "/videos/small_sunshine.mp4" }}" type="video/mp4" />
+  Ihr Browser unterstützt den video tag nicht.
+</video>

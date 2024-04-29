@@ -1,6 +1,8 @@
-.banner_1 img {
-  margin: auto;
+.banner_vid {
+  width: 80%;
+  margin-inline: auto;
 }
+
 .banner_2 {
   background-color: rgb(142, 179, 83);
 }
