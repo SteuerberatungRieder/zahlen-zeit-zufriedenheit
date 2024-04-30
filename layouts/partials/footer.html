@@ -1,6 +1,13 @@
 <div class="background">
   <img src="{{ absURL "/img/Hintergrund.jpg" }}" alt="background" />
 </div>
+
+<ul class="language-list">
+  {{ range $.Site.Home.AllTranslations }}
+    <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+  {{ end }}
+</ul>
+
 <div class="contacts">
   <p class="location">
     Steuer.Beratung.Rieder | Hochfeld 241 | 5721 Piesendorf

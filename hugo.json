@@ -1,7 +1,5 @@
 {
   "baseURL": "https://example.org/",
-  "languageCode": "de-DE",
-  "title": "Zahlen-Zeit-Zufriedenheit",
   "IsMultiLingual": true,
   "DefaultContentLanguage": "de",
   "defaultContentLanguageInSubdir": true,
@@ -17,8 +15,42 @@
       "languageCode": "de-DE",
       "languageDirection": "ltr",
       "languageName": "Deutsch",
-      "title": "Projekt Dokumentation",
-      "weight": 1
+      "title": "Zahlen-Zeit-Zufriedenheit",
+      "weight": 1,
+      "menus": {
+        "main": [
+          {
+            "name": "Zahlen",
+            "pageRef": "/#Zahlen",
+            "weight": 10
+          },
+          {
+            "name": "Zeit",
+            "pageRef": "/erlebnisreise/zeit",
+            "weight": 20
+          },
+          {
+            "name": "Zufriedenheit",
+            "pageRef": "/erlebnisreise/zufriedenheit",
+            "weight": 30
+          },
+          {
+            "name": "Home",
+            "pageRef": "/",
+            "weight": 40
+          },
+          {
+            "name": "Blog",
+            "pageRef": "/blog/",
+            "weight": 50
+          },
+          {
+            "name": "Kontakt",
+            "pageRef": "/kontakt",
+            "weight": 60
+          }
+        ]
+      }
     },
     "en": {
       "contentDir": "content/en",
@@ -26,36 +58,42 @@
       "languageCode": "en-US",
       "languageDirection": "ltr",
       "languageName": "English",
-      "title": "Project Documentation",
-      "weight": 2
-    }
-  },
-  "menus": {
-    "main": [
-      {
-        "name": "Zahlen",
-        "pageRef": "/erlebnisreise/zahlen"
-      },
-      {
-        "name": "Zeit",
-        "pageRef": "/erlebnisreise/zeit"
-      },
-      {
-        "name": "Zufriedenheit",
-        "pageRef": "/erlebnisreise/zufriedenheit"
-      },
-      {
-        "name": "Home",
-        "pageRef": "/"
-      },
-      {
-        "name": "Blog",
-        "pageRef": "/blog"
-      },
-      {
-        "name": "Kontakt",
-        "pageRef": "/kontakt"
+      "title": "Numbers-Time-Happiness",
+      "weight": 2,
+      "menus": {
+        "main": [
+          {
+            "name": "Numbers",
+            "pageRef": "/erlebnisreise/zahlen",
+            "weight": 10
+          },
+          {
+            "name": "Time",
+            "pageRef": "/erlebnisreise/zeit",
+            "weight": 20
+          },
+          {
+            "name": "Happiness",
+            "pageRef": "/erlebnisreise/zufriedenheit",
+            "weight": 30
+          },
+          {
+            "name": "Home",
+            "pageRef": "/",
+            "weight": 40
+          },
+          {
+            "name": "Blog",
+            "pageRef": "/blog/",
+            "weight": 50
+          },
+          {
+            "name": "Contacts",
+            "pageRef": "/contacts",
+            "weight": 60
+          }
+        ]
       }
-    ]
+    }
   }
 }

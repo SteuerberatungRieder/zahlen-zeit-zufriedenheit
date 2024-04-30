@@ -31,6 +31,19 @@ footer .background img {
   object-position: 100% 30%;
 }
 
+footer .language-list {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .language-list li:nth-child(n + 2):before {
+  content: "|";
+  padding-inline: 0.3rem;
+}
+
 footer .contacts {
   position: relative;
   z-index: 1;

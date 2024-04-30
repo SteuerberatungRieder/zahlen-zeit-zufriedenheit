@@ -8,6 +8,7 @@
 .mainMenu .change_lang {
   color: black;
   background-color: white;
+  text-decoration: none;
   border: none;
   height: fit-content;
   width: fit-content;
@@ -22,6 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.2em;
+  text-transform: uppercase;
 }
 
 .mainMenu .change_lang:hover {
