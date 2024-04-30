@@ -2,7 +2,16 @@
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </div>
 <div class="banner_2">
-  <img src="{{ absURL "/img/Hintergrund.jpg" }}" alt="main banner" />
+  <img
+    src="{{ absURL "/img/Hintergrund.jpg" }}"
+    alt="main banner"
+    class="bg_banner"
+  />
+  <img
+    src="{{ absURL "/img/zzz_Text.png" }}"
+    alt="Zahlen Zeit Zufriedenheit Banner"
+    class="text_banner"
+  />
 </div>
 <video width="100%" controls class="banner_vid">
   <source src="{{ absURL "/videos/small_sunshine.mp4" }}" type="video/mp4" />
