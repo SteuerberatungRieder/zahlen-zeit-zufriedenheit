@@ -101,6 +101,10 @@
   background-color: #f0f0f0;
   color: #88b443;
 }
+.mainMenu .mobileBurger:active {
+  background-color: #f0f0f0;
+  color: #77a914;
+}
 
 .mainMenu .mobileBurger svg {
   fill: currentColor;
