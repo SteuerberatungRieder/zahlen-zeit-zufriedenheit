@@ -1,28 +1,3 @@
-.banner_vid {
-  width: 80%;
-  margin-inline: auto;
-}
-
-.banner_2 {
-  background-color: rgb(142, 179, 83);
-  position: relative;
-}
-
-.banner_2 .bg_banner {
-  object-fit: cover;
-  width: 100%;
-  max-height: 25rem;
-  object-position: 100% 10%;
-}
-
-.banner_2 .text_banner {
-  position: absolute;
-  top: 0;
-  padding-top: 2rem;
-  left: 20vw;
-  max-width: calc(100% - 20vw);
-}
-
 .mainMenu {
   background-color: white;
   display: flex;
@@ -43,11 +18,21 @@
   font-family: "Barlow", sans-serif;
   padding-inline: 1rem;
   padding-block: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
 }
 
 .mainMenu .change_lang:hover {
   background-color: #f0f0f0;
   color: #88b443;
+}
+
+.mainMenu .change_lang svg {
+  fill: currentColor;
+  width: 1.6em;
+  height: 1.6em;
 }
 
 .mainMenu nav {
@@ -78,4 +63,24 @@
 
 .mainMenu nav a:hover {
   color: #88b443;
+}
+
+.banner_2 {
+  background-color: rgb(142, 179, 83);
+  position: relative;
+}
+
+.banner_2 .bg_banner {
+  object-fit: cover;
+  width: 100%;
+  max-height: 25rem;
+  object-position: 100% 10%;
+}
+
+.banner_2 .text_banner {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem;
+  left: 20vw;
+  max-width: calc(100% - 20vw);
 }
