@@ -15,20 +15,16 @@
     src="https://placehold.co/500x100?text=Logo"
     alt="Logo"
     class="mainLogo"
-    width="500"
-    height="100"
   />
   <img
     src="https://placehold.co/100x100?text=Logi"
     alt="Logo"
     class="mainLogoSmall"
-    width="100"
-    height="100"
   />
   <div class="desktopMenu">
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   </div>
 </div>
-<div class="mobileMenu">
+<div class="mobileMenu" id="mobileMenuMenu">
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </div>

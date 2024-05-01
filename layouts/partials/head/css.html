@@ -15,10 +15,13 @@
 {{- /* bundle all required css */}}
 {{- /* Add extended css after theme style */ -}}
 
+{{- /* scss compile optionss */}}
+{{ $opts := dict "transpiler" "dartsass" }}
+
 {{- if eq hugo.Environment "development" }}
   {{ range $styles }}
     {{ range . }}
-      {{- $sss := . | resources.ToCSS }}
+      {{- $sss := . | resources.ToCSS $opts }}
       <link
         crossorigin="anonymous"
         href="{{ $sss.RelPermalink }}"

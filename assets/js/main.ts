@@ -7,5 +7,6 @@ console.log("Number is", num);
 let mobileButton = document.getElementById("mobileMenuButton");
 
 mobileButton?.addEventListener("click", (e) => {
-  console.log("mobileMenuButton Click", e);
+  let mobileMenuMenu = document.getElementById("mobileMenuMenu");
+  mobileMenuMenu?.classList.toggle("open");
 });
