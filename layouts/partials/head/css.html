@@ -1,13 +1,13 @@
 {{- /* Styles */}}
 
-{{- $theme_vars :=slice (resources.Get "css/core/theme-vars.css") }}
-{{- $reset :=slice (resources.Get "css/core/reset.css") }}
-{{- $common := (resources.Match "css/common/*.css") }}
+{{- $theme_vars :=slice (resources.Get "scss/core/theme-vars.scss") }}
+{{- $reset :=slice (resources.Get "scss/core/reset.scss") }}
+{{- $common := (resources.Match "scss/common/*.[s ]css") }}
 
 {{- /* markup.highlight.noClasses should be set to `false` */}}
-{{- $code_styles :=slice (resources.Get "css/includes/syntax-light.css") }}
+{{- $code_styles :=slice (resources.Get "scss/includes/syntax-light.scss") }}
 
-{{- $extended := (resources.Match "css/extended/*.css") }}
+{{- $extended := (resources.Match "scss/extended/*.[s ]css") }}
 
 {{- /* order is important */}}
 {{- $styles := (slice $theme_vars $reset $common $code_styles $extended) }}
@@ -18,9 +18,10 @@
 {{- if eq hugo.Environment "development" }}
   {{ range $styles }}
     {{ range . }}
+      {{- $sss := . | resources.ToCSS }}
       <link
         crossorigin="anonymous"
-        href="{{ .RelPermalink }}"
+        href="{{ $sss.RelPermalink }}"
         rel="preload stylesheet"
         as="style"
       />
@@ -33,7 +34,7 @@
     {{ $stylesheets = $stylesheets | collections.Append $sty }}
   {{ end }}
 
-  {{- $stylesheet := $stylesheets | resources.Concat "assets/css/stylesheet.css" | resources.Minify | fingerprint }}
+  {{- $stylesheet := $stylesheets | resources.ToCSS | resources.Concat "assets/css/stylesheet.css" | resources.Minify | fingerprint }}
   <link
     crossorigin="anonymous"
     href="{{ $stylesheet.RelPermalink }}"
