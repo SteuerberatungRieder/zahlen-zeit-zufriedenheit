@@ -3,113 +3,113 @@
   display: flex;
   justify-content: space-around;
   align-items: end;
-}
 
-.mainMenu nav {
-  width: 50%;
-  height: fit-content;
-}
+  nav {
+    width: 50%;
+    height: fit-content;
 
-.mainMenu nav ul {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: flex-end;
-}
+    ul {
+      display: flex;
+      height: 100%;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
 
-.mainMenu nav li {
-  padding-bottom: 2rem;
-}
+    li {
+      padding-bottom: 2rem;
+    }
 
-.mainMenu nav a {
-  font-size: larger;
-  color: black;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    a {
+      font-size: larger;
+      color: black;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
 
-.mainMenu nav a.active {
-  color: #77a914;
-}
+    a.active {
+      color: #77a914;
+    }
 
-.mainMenu nav a:hover {
-  color: #88b443;
-}
+    a:hover {
+      color: #88b443;
+    }
+  }
 
-.mainMenu .mainLogo {
-  display: none;
-}
+  .mainLogo {
+    display: none;
+  }
 
-.mainMenu .mainLogoSmall {
-  display: none;
-}
+  .mainLogoSmall {
+    display: none;
+  }
 
-.mainMenu .desktopMenu {
-  display: contents;
-}
+  .desktopMenu {
+    display: contents;
+  }
 
-.mainMenu .change_lang {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-  border: none;
-  height: fit-content;
-  width: fit-content;
-  margin-block: auto;
-  cursor: pointer;
-  font-size: larger;
-  font-weight: 500;
-  font-family: "Barlow", sans-serif;
-  padding-inline: 1rem;
-  padding-block: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2em;
-  text-transform: uppercase;
-}
+  .change_lang {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    margin-block: auto;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+    font-family: "Barlow", sans-serif;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+    text-transform: uppercase;
 
-.mainMenu .change_lang:hover {
-  background-color: #f0f0f0;
-  color: #88b443;
-}
+    :hover {
+      background-color: #f0f0f0;
+      color: #88b443;
+    }
 
-.mainMenu .change_lang svg {
-  fill: currentColor;
-  width: 1.6em;
-  height: 1.6em;
-}
+    svg {
+      fill: currentColor;
+      width: 1.6em;
+      height: 1.6em;
+    }
+  }
 
-.mainMenu .mobileBurger {
-  display: none;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  border: none;
+  .mobileBurger {
+    display: none;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
 
-  /* aspect-ratio: 1; */
-  cursor: pointer;
-  font-size: larger;
-  font-weight: 500;
-  font-family: "Barlow", sans-serif;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-}
+    /* aspect-ratio: 1; */
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+    font-family: "Barlow", sans-serif;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 
-.mainMenu .mobileBurger:hover {
-  background-color: #f0f0f0;
-  color: #88b443;
-}
-.mainMenu .mobileBurger:active {
-  background-color: #f0f0f0;
-  color: #77a914;
-}
+    :hover {
+      background-color: #f0f0f0;
+      color: #88b443;
+    }
+    :active {
+      background-color: #f0f0f0;
+      color: #77a914;
+    }
 
-.mainMenu .mobileBurger svg {
-  fill: currentColor;
-  width: 1.6em;
-  height: 1.6em;
+    svg {
+      fill: currentColor;
+      width: 1.6em;
+      height: 1.6em;
+    }
+  }
 }
 
 .mobileMenu {
@@ -121,21 +121,21 @@
   .mainMenu {
     justify-content: space-between;
     align-items: stretch;
-  }
 
-  .mainMenu .mainLogo {
-    display: block;
-    max-width: calc(100% - 5rem);
-  }
+    .mainLogo {
+      display: block;
+      max-width: calc(100% - 5rem);
+    }
 
-  .mainMenu .desktopMenu {
-    display: none;
-  }
-  .mainMenu .mobileBurger {
-    display: flex;
-  }
-  .mainMenu .change_lang {
-    display: none;
+    .desktopMenu {
+      display: none;
+    }
+    .mobileBurger {
+      display: flex;
+    }
+    .change_lang {
+      display: none;
+    }
   }
 }
 
