@@ -27,4 +27,6 @@
 </div>
 <div class="mobileMenu" id="mobileMenuMenu">
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  {{ partialCached "header/translateButton.html" . }}
+
 </div>
