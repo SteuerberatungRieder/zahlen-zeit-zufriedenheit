@@ -1,0 +1,29 @@
+.banner_2 {
+  background-color: rgb(142, 179, 83);
+  position: relative;
+}
+.banner_2 .bg_banner {
+  object-fit: cover;
+  width: 100%;
+  max-height: 25rem;
+  object-position: 100% 10%;
+}
+.banner_2 .text_banner {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem;
+  left: 20vw;
+  max-width: calc(100% - 20vw);
+}
+
+.banner_vid {
+  width: 80%;
+  margin-inline: auto;
+}
+
+@media only screen and (max-width: 719px) {
+  .banner_vid {
+    width: 98%;
+    margin-inline: auto;
+  }
+}

@@ -1,13 +1,13 @@
 {{- /* Styles */}}
 
-{{ $theme_vars :=slice (resources.Get "/scss/core/theme-vars.scss") }}
-{{ $reset :=slice (resources.Get "/scss/core/reset.scss") }}
-{{ $common := (resources.Match "/scss/common/*.scss") }}
+{{ $theme_vars :=slice (resources.Get "/css/core/theme-vars.css") }}
+{{ $reset :=slice (resources.Get "/css/core/reset.css") }}
+{{ $common := (resources.Match "/css/common/*.css") }}
 
 {{- /* markup.highlight.noClasses should be set to `false` */}}
-{{ $code_styles :=slice (resources.Get "/scss/includes/syntax-light.scss") }}
+{{ $code_styles :=slice (resources.Get "/css/includes/syntax-light.css") }}
 
-{{ $extended := (resources.Match "/scss/extended/*.scss") }}
+{{ $extended := (resources.Match "/css/extended/*.css") }}
 
 {{- /* order is important */}}
 {{ $styles := (slice $theme_vars $reset $common $code_styles $extended) }}
@@ -18,22 +18,15 @@
 {{- /* scss compile optionss */}}
 
 {{ if eq hugo.Environment "development" }}
-  {{ $stylesheets := slice }}
   {{ range $styles }}
-
-    {{ $stylesheets = $stylesheets | collections.Append . }}
-
-  {{ end }}
-
-  {{ range $stylesheets }}
-    {{ $opts := dict "transpiler" "dartsass" }}
-    {{ $scsss := . | fingerprint | resources.ToCSS $opts }}
-    <link
-      crossorigin="anonymous"
-      href="{{ $scsss.RelPermalink }}"
-      rel="preload stylesheet"
-      as="style"
-    />
+    {{ range . }}
+      <link
+        crossorigin="anonymous"
+        href="{{ .RelPermalink }}"
+        rel="preload stylesheet"
+        as="style"
+      />
+    {{ end }}
   {{ end }}
 {{ else }}
   {{ $stylesheets := slice }}
@@ -41,9 +34,8 @@
   {{ range $sty := $styles }}
     {{ $stylesheets = $stylesheets | collections.Append $sty }}
   {{ end }}
-  {{ $opts := dict "transpiler" "dartsass" }}
 
-  {{ $stylesheet := $stylesheets | resources.Concat "assets/scss/stylesheet.scss"| resources.ToCSS $opts | resources.Minify | fingerprint }}
+  {{ $stylesheet := $stylesheets | resources.Concat "assets/scss/stylesheet.scss" | resources.Minify | fingerprint }}
   <link
     crossorigin="anonymous"
     href="{{ $stylesheet.RelPermalink }}"
