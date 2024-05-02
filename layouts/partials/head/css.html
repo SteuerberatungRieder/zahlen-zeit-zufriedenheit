@@ -1,43 +1,49 @@
 {{- /* Styles */}}
 
-{{- $theme_vars :=slice (resources.Get "scss/core/theme-vars.scss") }}
-{{- $reset :=slice (resources.Get "scss/core/reset.scss") }}
-{{- $common := (resources.Match "scss/common/*.[s ]css") }}
+{{ $theme_vars :=slice (resources.Get "/scss/core/theme-vars.scss") }}
+{{ $reset :=slice (resources.Get "/scss/core/reset.scss") }}
+{{ $common := (resources.Match "/scss/common/*.scss") }}
 
 {{- /* markup.highlight.noClasses should be set to `false` */}}
-{{- $code_styles :=slice (resources.Get "scss/includes/syntax-light.scss") }}
+{{ $code_styles :=slice (resources.Get "/scss/includes/syntax-light.scss") }}
 
-{{- $extended := (resources.Match "scss/extended/*.[s ]css") }}
+{{ $extended := (resources.Match "/scss/extended/*.scss") }}
 
 {{- /* order is important */}}
-{{- $styles := (slice $theme_vars $reset $common $code_styles $extended) }}
+{{ $styles := (slice $theme_vars $reset $common $code_styles $extended) }}
 
 {{- /* bundle all required css */}}
 {{- /* Add extended css after theme style */ -}}
 
 {{- /* scss compile optionss */}}
-{{ $opts := dict "transpiler" "dartsass" }}
 
-{{- if eq hugo.Environment "development" }}
+{{ if eq hugo.Environment "development" }}
+  {{ $stylesheets := slice }}
   {{ range $styles }}
-    {{ range . }}
-      {{- $sss := . | resources.ToCSS $opts }}
-      <link
-        crossorigin="anonymous"
-        href="{{ $sss.RelPermalink }}"
-        rel="preload stylesheet"
-        as="style"
-      />
-    {{ end }}
+
+    {{ $stylesheets = $stylesheets | collections.Append . }}
+
   {{ end }}
-{{- else }}
+
+  {{ range $stylesheets }}
+    {{ $opts := dict "transpiler" "dartsass" }}
+    {{ $scsss := . | fingerprint | resources.ToCSS $opts }}
+    <link
+      crossorigin="anonymous"
+      href="{{ $scsss.RelPermalink }}"
+      rel="preload stylesheet"
+      as="style"
+    />
+  {{ end }}
+{{ else }}
   {{ $stylesheets := slice }}
 
   {{ range $sty := $styles }}
     {{ $stylesheets = $stylesheets | collections.Append $sty }}
   {{ end }}
+  {{ $opts := dict "transpiler" "dartsass" }}
 
-  {{- $stylesheet := $stylesheets | resources.ToCSS | resources.Concat "assets/css/stylesheet.css" | resources.Minify | fingerprint }}
+  {{ $stylesheet := $stylesheets | resources.Concat "assets/scss/stylesheet.scss"| resources.ToCSS $opts | resources.Minify | fingerprint }}
   <link
     crossorigin="anonymous"
     href="{{ $stylesheet.RelPermalink }}"
@@ -45,4 +51,4 @@
     rel="preload stylesheet"
     as="style"
   />
-{{- end }}
+{{ end }}

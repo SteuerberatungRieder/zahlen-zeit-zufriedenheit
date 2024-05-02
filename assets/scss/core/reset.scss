@@ -92,7 +92,6 @@ video {
   vertical-align: baseline;
 }
 
-
 b,
 strong,
 i,
@@ -102,11 +101,10 @@ small,
 del,
 ins,
 sub,
-sup{
+sup {
   /* font-size: initial; */
   font: revert;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 article,
