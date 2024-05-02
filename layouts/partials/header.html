@@ -1,5 +1,5 @@
 <div class="mainMenu">
-  {{ partialCached "header/translateButton.html" . }}
+  {{ partial "header/translateButton.html" . }}
 
 
   <button class="mobileBurger" id="mobileMenuButton">
@@ -27,6 +27,6 @@
 </div>
 <div class="mobileMenu" id="mobileMenuMenu">
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-  {{ partialCached "header/translateButton.html" . }}
+  {{ partial "header/translateButton.html" . }}
 
 </div>
