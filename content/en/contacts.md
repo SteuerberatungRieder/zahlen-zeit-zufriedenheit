@@ -29,16 +29,16 @@ Hochfeld 241
 ## We are
 
 {{< personCard >}}
-![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614.jpg)
+![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614_(Mittel).jpg)
 Mag.ª Ursula Rieder, Accredited CSR Consultant, Tax and Business Consultant and Trainer for Nonviolent Communication
 {{< /personCard >}}
 
 {{< personCard >}}
 Magdalena Rieder
-![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450.JPG)
+![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 {{< /personCard >}}
 
 {{< personCard >}}
-![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272.JPG)
+![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272_(Mittel).JPG)
 Bernhard Rieder, IT, Technical Implementation, This Website
 {{< /personCard >}}

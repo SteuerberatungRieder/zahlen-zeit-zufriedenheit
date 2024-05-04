@@ -31,15 +31,15 @@ Hochfeld 241
 
 {{< personCard >}}
 Mag.ª Ursula Brigitte Rieder, Steuerberaterin, Certified Management Consultant, CSR-Expert und Trainerin für Gewaltfreie Kommunikation
-![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614.jpg)
+![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614_(Mittel).jpg)
 {{< /personCard >}}
 
 {{< personCard >}}
-![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450.JPG)
+![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 Magdalena Rieder
 {{< /personCard >}}
 
 {{< personCard >}}
 Bernhard Rieder, EDV, Technische Umsetzung, Diese Webseite
-![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272.JPG)
+![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272_(Mittel).JPG)
 {{< /personCard >}}

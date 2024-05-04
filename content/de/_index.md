@@ -6,17 +6,17 @@ date = 2024-02-13T18:50:17+01:00
 ## Wir sind
 
 {{< personCard >}}
-![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614.jpg)
+![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614_(Mittel).jpg)
 Mag.ª Ursula Brigitte Rieder, Steuerberaterin, Certified Management Consultant, CSR-Expert und Trainerin für Gewaltfreie Kommunikation
 {{< /personCard >}}
 
 {{< personCard >}}
 Magdalena Rieder
-![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450.JPG)
+![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 {{< /personCard >}}
 
 {{< personCard >}}
-![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272.JPG)
+![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272_(Mittel).JPG)
 Bernhard Rieder, EDV, Technische Umsetzung, Diese Webseite
 {{< /personCard >}}
 
