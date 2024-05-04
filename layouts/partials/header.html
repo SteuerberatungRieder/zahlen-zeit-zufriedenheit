@@ -10,17 +10,30 @@
       />
     </svg>
   </button>
-
   <img
+    src="{{ absURL "/img/Logo_quer.svg" }}"
+    alt="Zahlen Zeit Zufriedenheit Banner"
+    class="mainLogo"
+  />
+  {{/* <img
     src="https://placehold.co/500x100?text=Logo"
     alt="Logo"
     class="mainLogo"
-  />
+    />
+  */}}
+
+
   <img
+    src="{{ absURL "/img/Logo_small.svg" }}"
+    alt="Zahlen Zeit Zufriedenheit Banner"
+    class="mainLogoSmall"
+  />
+  {{/* <img
     src="https://placehold.co/100x100?text=Logi"
     alt="Logo"
     class="mainLogoSmall"
-  />
+    />
+  */}}
   <div class="desktopMenu">
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   </div>

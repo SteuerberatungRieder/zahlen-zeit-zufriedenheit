@@ -10,7 +10,9 @@
     <div class="mainpage">
       <header>
         {{ partial "header.html" . }}
-        {{ partial "header/banner.html" . }}
+        {{ if .IsHome }}
+          {{ partial "header/banner.html" . }}
+        {{ end }}
       </header>
       <main>
         {{ block "main" . }}{{ end }}

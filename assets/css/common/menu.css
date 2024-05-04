@@ -31,9 +31,15 @@
 }
 .mainMenu .mainLogo {
   display: none;
+  max-height: 6.25rem;
+  max-width: 21.25rem;
+  padding-block: 1rem;
 }
 .mainMenu .mainLogoSmall {
   display: none;
+  max-height: 4.25rem;
+  max-width: 4.25rem;
+  padding-block: 1rem;
 }
 .mainMenu .desktopMenu {
   display: contents;
@@ -101,7 +107,9 @@
   display: none;
   max-height: 0px;
   transform: scaleY(0);
-  transition: max-height 1s, transform 1s;
+  transition:
+    max-height 1s,
+    transform 1s;
 }
 .mobileMenu.open {
   max-height: 50vh;
@@ -150,6 +158,8 @@
   .mainMenu .mainLogo {
     display: block;
     max-width: calc(100% - 5rem);
+    padding-block: 0;
+    padding-inline: 0.3rem;
   }
   .mainMenu .desktopMenu {
     display: none;

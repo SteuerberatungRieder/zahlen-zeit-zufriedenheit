@@ -21,17 +21,17 @@
         "main": [
           {
             "name": "Zahlen",
-            "pageRef": "/#Zahlen",
+            "pageRef": "/#zahlen",
             "weight": 10
           },
           {
             "name": "Zeit",
-            "pageRef": "/erlebnisreise/zeit",
+            "pageRef": "/#zeit",
             "weight": 20
           },
           {
             "name": "Zufriedenheit",
-            "pageRef": "/erlebnisreise/zufriedenheit",
+            "pageRef": "/#zufriedenheit",
             "weight": 30
           },
           {
