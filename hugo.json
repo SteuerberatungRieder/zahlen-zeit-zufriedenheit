@@ -21,17 +21,17 @@
         "main": [
           {
             "name": "Zahlen",
-            "pageRef": "/#zahlen",
+            "url": "#zahlen",
             "weight": 10
           },
           {
             "name": "Zeit",
-            "pageRef": "/#zeit",
+            "url": "#zeit",
             "weight": 20
           },
           {
             "name": "Zufriedenheit",
-            "pageRef": "/#zufriedenheit",
+            "url": "#zufriedenheit",
             "weight": 30
           },
           {
@@ -46,7 +46,7 @@
           },
           {
             "name": "Kontakt",
-            "pageRef": "/kontakt",
+            "pageRef": "/kontakt/",
             "weight": 60
           }
         ]
@@ -64,17 +64,17 @@
         "main": [
           {
             "name": "Numbers",
-            "pageRef": "/erlebnisreise/zahlen",
+            "url": "#numbers",
             "weight": 10
           },
           {
             "name": "Time",
-            "pageRef": "/erlebnisreise/zeit",
+            "url": "#time",
             "weight": 20
           },
           {
             "name": "Happiness",
-            "pageRef": "/erlebnisreise/zufriedenheit",
+            "url": "#happiness",
             "weight": 30
           },
           {
@@ -89,7 +89,7 @@
           },
           {
             "name": "Contacts",
-            "pageRef": "/contacts",
+            "pageRef": "/contacts/",
             "weight": 60
           }
         ]

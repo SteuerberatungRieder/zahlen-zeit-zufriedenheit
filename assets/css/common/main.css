@@ -33,3 +33,11 @@ main {
     margin: 1rem;
   }
 }
+
+.person_card{
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 2rem;
+  margin: 1rem;
+  align-items: center;
+}
