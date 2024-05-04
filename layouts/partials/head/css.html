@@ -35,7 +35,7 @@
     {{ $stylesheets = $stylesheets | collections.Append $sty }}
   {{ end }}
 
-  {{ $stylesheet := $stylesheets | resources.Concat "assets/scss/stylesheet.scss" | resources.Minify | fingerprint }}
+  {{ $stylesheet := $stylesheets | resources.Concat "assets/css/stylesheet.css" | resources.Minify | fingerprint }}
   <link
     crossorigin="anonymous"
     href="{{ $stylesheet.RelPermalink }}"
