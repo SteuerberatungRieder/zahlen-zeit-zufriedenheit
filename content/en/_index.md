@@ -11,8 +11,8 @@ Mag.ª Ursula Rieder, Accredited CSR Consultant, Tax and Business Consultant and
 {{< /personCard >}}
 
 {{< personCard >}}
-Magdalena Rieder
-![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
+Magdalena Rieder BA (hons), Consultant for personnel management, hotel industry and tourism
+![Magdalena Rieder BA (hons)](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 {{< /personCard >}}
 
 {{< personCard >}}

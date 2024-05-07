@@ -11,8 +11,8 @@ Mag.ª Ursula Brigitte Rieder, Steuerberaterin, Certified Management Consultant,
 {{< /personCard >}}
 
 {{< personCard >}}
-Magdalena Rieder
-![Magdalena Rieder](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
+Magdalena Rieder BA (hons), Berater für Personalmanagement, Hotellerie und Tourismus
+![Magdalena Rieder BA (hons)](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 {{< /personCard >}}
 
 {{< personCard >}}
