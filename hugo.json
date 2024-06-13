@@ -20,6 +20,11 @@
       "menus": {
         "main": [
           {
+            "name": "Video",
+            "pageRef": "/video",
+            "weight": 5
+          },
+          {
             "name": "Zahlen",
             "url": "#zahlen",
             "weight": 10
@@ -62,6 +67,11 @@
       "weight": 2,
       "menus": {
         "main": [
+          {
+            "name": "Video",
+            "pageRef": "/video",
+            "weight": 5
+          },
           {
             "name": "Numbers",
             "url": "#numbers",

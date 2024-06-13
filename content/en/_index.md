@@ -9,7 +9,7 @@ Do you love your work, are the time you spend and the resources you use in good 
 If you can answer yes to these questions, then congratulations!
 However, if there are still a few issues here and there, or if none of this seems to be running properly, then we have a consulting model for you that will help you improve your situation step by step.
 
-[Watch the Video](video)
+<!-- [Watch the Video](video) -->
 
 ## Numbers – Time - Happiness
 

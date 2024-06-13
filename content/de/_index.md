@@ -11,7 +11,7 @@ Wenn es dort und da noch hakt oder womöglich nichts davon rund läuft, dann hab
 ein Beratungsmodell für Dich, mit dem du Schritt für Schritt Deine Situation
 verbessern kannst.
 
-[Sieh dir das Video an](video)
+<!-- [Sieh dir das Video an](video) -->
 
 ## Zahlen – Zeit – Zufriedenheit
 
