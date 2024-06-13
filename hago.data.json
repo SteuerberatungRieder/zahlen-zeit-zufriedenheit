@@ -1,0 +1,45 @@
+,
+    "es": {
+      "contentDir": "content/es",
+      "disabled": false,
+      "languageCode": "es-ES",
+      "languageDirection": "ltr",
+      "languageName": "Alemán",
+      "title": "Números-Tiempo-Satisfacción",
+      "weight": 1,
+      "menus": {
+        "main": [
+          {
+            "name": "Números",
+            "url": "#numeros",
+            "weight": 10
+          },
+          {
+            "name": "Tiempo",
+            "url": "#tiempo",
+            "weight": 20
+          },
+          {
+            "name": "Satisfacción",
+            "url": "#satisfaccion",
+            "weight": 30
+          },
+          {
+            "name": "Inicio",
+            "pageRef": "/",
+            "weight": 40
+          },
+          {
+            "name": "Blog",
+            "pageRef": "/blog/",
+            "weight": 50
+          },
+          {
+            "name": "Contacto",
+            "pageRef": "/contacto/",
+            "weight": 60
+          }
+        ]
+      }
+
+    }
