@@ -46,10 +46,6 @@ Taking lasting and sustainable new small steps will get you to your destination 
 
 ## The consulting model applied in practice
 
-### Happiness  
-
-What do you long for the most? Which of your needs are being neglected? What makes you happy? How should your working life / everyday working life be organized so that the quality of life suits you?  With our satisfaction factors, we will find out. After all, work is life (or do you feel “lifeless” during your work? Then it is high time for you to change)
-
 ### Numbers
 
 are the basis for good decisions. The precise analysis of your key figures helps to improve your efficiency and effectiveness. Less effort with a good yield, less use of resources, but ecologically and fairly - this is how you operate sustainably.
@@ -57,6 +53,11 @@ are the basis for good decisions. The precise analysis of your key figures helps
 ### Time
 
 Spending a lot of time does not necessarily lead to great returns or overall satisfaction. The amount of time spent is much more related to your efficiency and the working atmosphere. Is the cooperation respectful, are decisions made jointly, are the company's goals and strategy transparent and clear to everyone, is everyone pulling in the same direction? These are the decisive factors.
+
+### Happiness  
+
+What do you long for the most? Which of your needs are being neglected? What makes you happy? How should your working life / everyday working life be organized so that the quality of life suits you?  With our satisfaction factors, we will find out. After all, work is life (or do you feel “lifeless” during your work? Then it is high time for you to change)
+
 
 ### The soil on which everything flourishes
 

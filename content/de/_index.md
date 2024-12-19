@@ -47,10 +47,6 @@ Dauerhaft und nachhaltig neue kleine Schritte zu setzen bringt Dich ans Ziel –
 
 ## Das Beratungsmodell in der Praxis
 
-### Zufriedenheit  
-
-Wonach sehnst du dich am meisten? Welche deiner Bedürfnisse kommen zu kurz? Was macht dich zufrieden? Wie muss dein Arbeitsleben / Arbeitsalltag gestaltetet sein, damit die Lebensqualität für dich passt?  Mit unseren Zufriedenheitsfaktoren finden wir es heraus. Denn Arbeit ist Leben (oder fühlst du dich „leblos“ während deiner Arbeit? Dann wäre es höchste Zeit für Veränderungen)
-
 ### Zahlen
 
 sind die Grundlage für gute Entscheidungen. Die genaue Analyse Deiner Kennzahlen hilft, deine Effizienz und Effektivität zu verbessern. Weniger Kraftaufwand bei gutem Ertrag, weniger Ressourceneinsatz, dafür ökologisch und fair – so wirtschaftest Du nachhaltig.
@@ -58,6 +54,10 @@ sind die Grundlage für gute Entscheidungen. Die genaue Analyse Deiner Kennzahle
 ### Zeit
 
 Viel Zeitaufwand führt nicht unbedingt zu großem Ertrag bzw. voller Zufriedenheit. Der Zeitaufwand steht viel mehr in Zusammenhang mit Deiner Effizienz und dem Betriebsklima. Ist die Zusammenarbeit wertschätzend, werden Entscheidungen gemeinsam getroffen, sind die Unternehmensziele und die Unternehmensstrategie für alle transparent und klar, ziehen alle an einem Strang? Das sind entscheidende Faktoren.
+
+### Zufriedenheit  
+
+Wonach sehnst du dich am meisten? Welche deiner Bedürfnisse kommen zu kurz? Was macht dich zufrieden? Wie muss dein Arbeitsleben / Arbeitsalltag gestaltetet sein, damit die Lebensqualität für dich passt?  Mit unseren Zufriedenheitsfaktoren finden wir es heraus. Denn Arbeit ist Leben (oder fühlst du dich „leblos“ während deiner Arbeit? Dann wäre es höchste Zeit für Veränderungen)
 
 ### Der Boden, auf dem alles gedeiht
 
