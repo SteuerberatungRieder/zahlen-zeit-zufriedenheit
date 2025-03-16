@@ -1,0 +1,16 @@
+{{- $thumbnail := or (.Get "thumbnail") "/videos/sunshine_thumbnail.png" }}
+{{- $src := or (.Get "src") "/videos/sunshine_crp.mp4" }}
+
+<video
+width="100%"
+controls
+class="banner_vid"
+preload="none"
+poster="{{ absLangURL $thumbnail }}"
+>
+<source
+  src="{{ absLangURL $src }}"
+  type="video/mp4"
+/>
+Ihr Browser unterstützt den video tag nicht.
+</video>
