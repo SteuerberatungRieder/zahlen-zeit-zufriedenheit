@@ -40,8 +40,8 @@
             "weight": 30
           },
           {
-            "name": "Partner",
-            "pageRef": "/partner/",
+            "name": "Wir",
+            "pageRef": "/wir/",
             "weight": 40
           },
           {
@@ -98,8 +98,8 @@
             "weight": 60
           },
           {
-            "name": "Contacts",
-            "pageRef": "/contacts/",
+            "name": "We",
+            "pageRef": "/we/",
             "weight": 70
           }
         ]

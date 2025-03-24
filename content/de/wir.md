@@ -1,9 +1,26 @@
 +++
-title = 'Partner und Partnerinnen'
-translationKey = 'Partners'
+title = 'Partners und Wir'
+translationKey = 'wir'
 date = 2024-04-29T20:50:21+02:00
 draft = false
 +++
+
+## Wir sind:
+
+{{< personCard >}}
+![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614_(Mittel).jpg)
+### Mag.ª Ursula Brigitte Rieder, Steuerberaterin, Certified Management Consultant, CSR-Expert und Trainerin für Gewaltfreie Kommunikation
+{{< /personCard >}}
+
+{{< personCard >}}
+### Magdalena Rieder BA (hons), Berater für Personalmanagement, Hotellerie und Tourismus
+![Magdalena Rieder BA (hons)](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
+{{< /personCard >}}
+
+{{< personCard >}}
+![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272_(Mittel).JPG)
+### Bernhard Rieder, EDV, Technische Umsetzung, Diese Webseite
+{{< /personCard >}}
 
 # Partner und Partnerinnen
 
