@@ -1,6 +1,6 @@
 +++
 title = 'Partners und Wir'
-translationKey = 'wir'
+translationKey = 'we'
 date = 2024-04-29T20:50:21+02:00
 draft = false
 +++
