@@ -49,6 +49,20 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
-            --baseURL "${{ steps }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+            --minify
+      # Deploy to FTP
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /www.zahlenzeitzufriedenheit.at/  # Adjust this to your hosting provider's directory structure
+          local-dir: ./public/       # Hugo's default build directory
+          
+          # Optional: Exclude files you don't want to upload
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.hugo_build.lock
