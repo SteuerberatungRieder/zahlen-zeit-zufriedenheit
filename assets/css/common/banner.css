@@ -8,12 +8,47 @@
   max-height: 25rem;
   object-position: 100% 10%;
 }
+
+@media (max-width: 1439px) {
+
+  .banner_2 .bg_banner.mitblatt{
+    display: none;
+  }
+
+  .banner_2 .bg_banner.blattlos{
+  display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .banner_2 .bg_banner.mitblatt{
+    display: block;
+  }
+
+  .banner_2 .bg_banner.blattlos{
+  display: none;
+  }
+}
+
+
 .banner_2 .text_banner {
   position: absolute;
   top: 0;
   padding-top: 2rem;
   left: 20vw;
   max-width: calc(100% - 20vw);
+}
+
+.banner_2 .text_banner_v2{
+  position: absolute;
+  top: 0;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  left: calc(10vw);
+  max-width:  calc(100% - 10vw);
+  max-height: 23rem;
+
 }
 
 .banner_vid {
