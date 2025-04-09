@@ -8,17 +8,17 @@ draft = false
 ## We are
 
 {{< personCard >}}
-Mag.ª Ursula Rieder, Accredited CSR Consultant, Tax and Business Consultant and Trainer for Nonviolent Communication
+### Mag.ª Ursula Rieder, Accredited CSR Consultant, Tax and Business Consultant and Trainer for Nonviolent Communication
 ![Mag. Ursula Brigitte Rieder](/img/UschiBild_unbearbeitet_KJA_6614_(Mittel).jpg)
 {{< /personCard >}}
 
 {{< personCard >}}
 ![Magdalena Rieder BA (hons)](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
-Magdalena Rieder BA (hons), Consultant for personnel management, hotel industry and tourism
+### Magdalena Rieder BA (hons), Consultant for personnel management, hotel industry and tourism
 {{< /personCard >}}
 
 {{< personCard >}}
-Bernhard Rieder, IT, Technical Implementation, This Website
+### Bernhard Rieder, IT, Technical Implementation, This Website
 ![Bernhard Rieder](/img/BernhardBild_unbearbeitet_KJB_8272_(Mittel).JPG)
 {{< /personCard >}}
 
@@ -32,11 +32,11 @@ Bernhard Rieder, IT, Technical Implementation, This Website
 
 **Logotherapist, trainer for non-violent communication, sports scientist**
 
+{{< foldingText primer="**About me:** My training and experience have opened up new perspectives for me, which I pass on in counselling sessions, training courses and seminars. The connection between nature, movement and questions of meaning such as: ‘Who am I really and how do I want to live?’ is particularly important to me." >}}
+
 **About me:** My training and experience have opened up new perspectives for me, which I pass on in counselling sessions, training courses and seminars. The connection between nature, movement and questions of meaning such as: ‘Who am I really and how do I want to live?’ is particularly important to me.
 
 My vision is to take counselling and coaching out of traditional practice rooms and into nature. The diversity of the landscape - from rocky paths to hidden trails - reflects our own inner life and inspires me to show my clients new perspectives there too.
-
-Translated with DeepL.com (free version)
 
 **My work is based on the following pillars:**
 
@@ -55,3 +55,5 @@ Translated with DeepL.com (free version)
 - Member and trainer in the professional association for non-violent communication in Germany
 - Degree in sports and exercise science
 - Life and social counsellor specialising in ‘health and fitness’ and ‘psychology’
+
+{{< /foldingText >}}

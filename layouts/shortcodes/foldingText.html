@@ -1,0 +1,11 @@
+{{- $primer := .Get "primer" }}
+<div class="foldingText">
+  <span class="foldingTextContentSmall">
+    {{ $primer | markdownify }}
+  </span>
+  <span class="foldingTextContent">
+    {{ .Inner | markdownify }}
+  </span>
+  <button class="expandButton buttonLink">{{ i18n "expand" }}</button>
+  <button class="collapseButton buttonLink">{{ i18n "collapse" }}</button>
+</div>

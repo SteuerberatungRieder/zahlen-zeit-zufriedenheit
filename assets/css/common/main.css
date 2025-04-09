@@ -34,7 +34,7 @@ main {
   }
 }
 
-.person_card{
+.person_card {
   display: grid;
   grid-template-columns: 50% auto;
   gap: 2rem;
@@ -42,13 +42,19 @@ main {
   align-items: center;
 }
 
+.rightSideImage {
+  float: inline-end;
+}
+
 @media only screen and (max-width: 719px) {
-  .person_card{
+  .person_card {
     display: flex;
     flex-direction: column;
   }
-}
-
-.rightSideImage{
-  float: inline-end;
+  .rightSideImage {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

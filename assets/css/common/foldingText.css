@@ -1,0 +1,20 @@
+.foldingText:not(.open) > button.collapseButton{
+  display: none;
+}
+.foldingText:not(.open) > .foldingTextContent{
+  display: none;
+}
+.foldingText.open > .foldingTextContentSmall{
+  display: none;
+}
+.foldingText.open > button.expandButton{
+  display: none;
+}
+
+.foldingText > button {
+  background: none;
+  border: none;
+  color: var(--color-accent-fg);
+  cursor: pointer;
+  font-size: 0.9em;
+}

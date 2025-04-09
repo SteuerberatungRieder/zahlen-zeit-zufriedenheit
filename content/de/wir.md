@@ -32,6 +32,8 @@ draft = false
 
 **Logotherapeutin, Trainerin für Gewaltfreie Kommunikation, Sportwissenschafterin**
 
+{{< foldingText primer="**Über mich:** Meine Ausbildungen und Erfahrungen haben mir neue Perspektiven eröffnet, die ich in Beratungen, Trainings und Seminaren weitergebe. Besonders wichtig ist mir die Verbindung von Natur, Bewegung und Sinnfragen wie: „Wer bin ich wirklich, und wie möchte ich leben?“" >}}
+
 **Über mich:** Meine Ausbildungen und Erfahrungen haben mir neue Perspektiven eröffnet, die ich in Beratungen, Trainings und Seminaren weitergebe. Besonders wichtig ist mir die Verbindung von Natur, Bewegung und Sinnfragen wie: „Wer bin ich wirklich, und wie möchte ich leben?“
 
 Meine Vision ist es, Beratung und Coaching aus klassischen Praxisräumen hinaus in die Natur zu bringen. Die Vielfalt der Landschaft – von felsigen Wegen bis zu verborgenen Pfaden – spiegelt unser eigenes Innenleben wider und inspiriert mich, meinen KlientInnen auch dort neue Perspektiven zu aufzuzeigen.
@@ -53,3 +55,5 @@ Meine Vision ist es, Beratung und Coaching aus klassischen Praxisräumen hinaus 
 - Mitglied und Trainerin im Fachverband für Gewaltfreie Kommunikation in Deutschland
 - Studium der Sport- und Bewegungswissenschaft
 - Lebens und Sozialberaterin mit Schwerpunkt „Gesundheit und Fitness“, sowie „Psychologie“
+
+{{< /foldingText >}}
