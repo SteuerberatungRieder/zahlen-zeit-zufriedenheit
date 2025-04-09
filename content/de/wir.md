@@ -13,7 +13,8 @@ draft = false
 {{< /personCard >}}
 
 {{< personCard >}}
-### Magdalena Rieder BA (hons), Berater für Personalmanagement, Hotellerie und Tourismus
+### Magdalena Monika Rieder, BA (hons), MSc Beraterin für Personalmanagement, Hotellerie und Tourismus
+
 ![Magdalena Rieder BA (hons)](/img/MagdalenaBild_unbearbeitet_DSC_1450_(Mittel).JPG)
 {{< /personCard >}}
 
